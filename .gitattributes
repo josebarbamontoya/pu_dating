@@ -5,3 +5,4 @@ data/empirical_data/*.med filter=lfs diff=lfs merge=lfs -text
 data/simulated_data/*.txt filter=lfs diff=lfs merge=lfs -text
 data/simulated_data/*.fas filter=lfs diff=lfs merge=lfs -text
 data/simulated_data/*.nwk filter=lfs diff=lfs merge=lfs -text
+lbs-reltime_tutorial/*.fas filter=lfs diff=lfs merge=lfs -text
