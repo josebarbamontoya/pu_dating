@@ -1,0 +1,7 @@
+data/empirical_data/*.zip filter=lfs diff=lfs merge=lfs -text
+data/empirical_data/*.fas filter=lfs diff=lfs merge=lfs -text
+data/empirical_data/*.txt filter=lfs diff=lfs merge=lfs -text
+data/empirical_data/*.med filter=lfs diff=lfs merge=lfs -text
+data/simulated_data/*.txt filter=lfs diff=lfs merge=lfs -text
+data/simulated_data/*.fas filter=lfs diff=lfs merge=lfs -text
+data/simulated_data/*.nwk filter=lfs diff=lfs merge=lfs -text
