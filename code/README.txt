@@ -1,12 +1,11 @@
-This directory contains R and shell scripts usued in:
+This directory contains software and code used in:
 
 Barba-Montoya et al. (2023). Molecular timetrees using relaxed clocks and uncertain phylogenies. DOI: https://doi.org/...
 
-R and shell scripts for simuulated and eprirical data analysis:
+Two direcories that contain the software and code required to cary out Reltime-JA of simulated and empirical data:
 
-	scriptts.r
-	scripts.sh
-	...
+	reltime_ja_simulated_data
+	reltime_ja_empirical_data
 
 For questions or comments please contact:
 
