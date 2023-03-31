@@ -1,0 +1,1 @@
+!MRCA='ingroup' TaxonA='I13805_NEP55_Araneae_Nephilidae_Herennia_etruscilla_seq1' TaxonB='I21099_ARA0353__Araneidae_Leviellus_thorelli_seq1' MinTime=1.92 MaxTime=2.02 calibrationName='ingroup';

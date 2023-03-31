@@ -1,0 +1,1 @@
+!MRCA='ingroup' TaxonA='monodelphis_domestica' TaxonB='homo_sapiens' MinTime=1.37 MaxTime=1.47 calibrationName='ingroup';
