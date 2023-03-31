@@ -1,0 +1,1 @@
+!MRCA='ingroup' TaxonA='Urochloa_decumbens' TaxonB='Rhynchoryza_subulata' MinTime=0.49 MaxTime=0.54 calibrationName='ingroup';

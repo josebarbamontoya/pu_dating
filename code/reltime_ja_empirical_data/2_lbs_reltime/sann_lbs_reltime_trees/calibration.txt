@@ -1,0 +1,1 @@
+!MRCA='ingroup' TaxonA='Foxita_bara_ssp_patei1' TaxonB='Dolichurus_corniculus' MinTime=1.81 MaxTime=1.91 calibrationName='ingroup';
