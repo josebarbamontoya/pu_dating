@@ -1,1 +1,0 @@
-!IngroupRoot MinTime=4.446 MaxTime=4.646;
