@@ -1,0 +1,4 @@
+!Taxa="Abi,Ket" MinTime=45.5 calibrationName='Abi-Ket-split';
+!Taxa="Par,Pil,Pit" MinTime=85 calibrationName='Par-Pit-split';
+!Taxa="Par,Pil,Pit,Cat" MinTime=133 calibrationName='Cat-Pit-split';
+!Taxa="Par,Pil,Pit,Cat,Psm,Pab,Psu,Lar,Tsu,Not,Pri,Abi,Ket,Ced" MinTime=168 MaxTime=267 calibrationName='crown-pinaceae';
