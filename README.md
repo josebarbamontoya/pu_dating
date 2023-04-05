@@ -5,9 +5,9 @@ In this repository, you can find a description of the RelTime-JA method that com
 
 ## Directory structure
 
-   * **code** directory contains the software, R code, and shell scripts required to carry out Reltime-JA of simulated and empirical data.
+   * **code** directory contains the software, R code, and shell scripts required to carry out the RelTime-JA analyses of computer simulated and empirical phylogenomic datasets.
    
-   * **data** directory contains computer simulated and empirical data analyzed for this study.
+   * **data** directory contains computer simulated and empirical phylogenomic datasets analyzed for this study.
    
    * **reltime-ja_tutorial** directory contains the software, R code, and shell scripts used in the tutorial of the RelTime-JA method with little bootstraps.
 
