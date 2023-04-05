@@ -19,3 +19,5 @@ In this repository, you can find a description of the RelTime-JA method that com
    2. **LBS-RelTime analysis**
 
    3. **Timetree construction**
+
+   4. **Comparison of RelTime-SA and RelTime-JA time estimates**
