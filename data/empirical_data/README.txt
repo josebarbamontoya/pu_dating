@@ -4,11 +4,11 @@ Barba-Montoya et al. (2023). Molecular timetrees using relaxed clocks and uncert
 
 Six phylogenomic datasets, and list of references:
 
-	apoids_concat_fas.zip
+	apoids_concat_fas
 	grasses_concat.fas
 	hemipteroids_concat.fas
 	mammals_concat_fas.zip
-	pines_concat_fas.zip
+	pines_concat_fas
 	spiders_concat.fas
 	emprical_data_list.md
 
