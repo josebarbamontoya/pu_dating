@@ -9,10 +9,10 @@ In this repository, you can find a description of the Reltime-JA method that com
    
    * **data** directory contains computer simulated and empirical phylogenomic data analyzed for this study.
    
-   * **reltime_ja_tutorial** directory contains the software, R code, and shell scripts used in the tutorial.
+   * **reltime-ja_tutorial** directory contains the software, R code, and shell scripts used in the tutorial of RelTime-JA with little bootstraps.
 
 
-## RelTime-JA with Liitle Bootstraps Tutorial
+## RelTime-JA with liitle bootstraps Tutorial
 
    1. **LBS-IQ-TREE analysis**
 
