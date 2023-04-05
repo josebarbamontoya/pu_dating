@@ -10,7 +10,7 @@ Six phylogenomic datasets, and list of references:
 	mammals_concat_fas.zip
 	pines_concat_fas
 	spiders_concat.fas
-	emprical_data_list.md
+	emprical_data_summary_table.md
 
 For questions or comments please contact:
 
