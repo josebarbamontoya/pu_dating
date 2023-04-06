@@ -20,8 +20,6 @@ Directory "1_lbs_iqtree" contains R functions, code and software required to car
 
 ## 2. LBS-RelTime analysis
 
-## 2. LBS-RelTime analysis
-
 Each 400 ML-LBS tree was then individually dated to generate node ages and CIs using RelTime implemented in MEGA-CC. We used three fossil calibrations implemented as minimum age, and an ingroup root age constraint implemented as a uniform distribution U(min, max) based on CI bound estimates from Ran et al. (2018). In RelTime, the outgroup is excluded from analysis (for an explanation, refer to Tamura et al. 2012; Tamura et al. 2018).
 
 ```
