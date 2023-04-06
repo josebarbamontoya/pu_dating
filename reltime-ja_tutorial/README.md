@@ -22,13 +22,13 @@ Directory "1_lbs_iqtree" contains R functions, code and software required to car
 
 Each 400 ML-LBS tree was then individually dated to generate node ages and CIs using RelTime implemented in MEGA-CC. We used three fossil calibrations implemented as minimum age, and an ingroup root age constraint implemented as a uniform distribution U(min, max) based on CI bound estimates from Ran et al. (2018). In RelTime, the outgroup is excluded from analysis (for an explanation, refer to Tamura et al. 2012; Tamura et al. 2018).
 
-`!Taxa="Abi,Ket" MinTime=45.5 calibrationName='Abi-Ket-split';
+`!Taxa="Abi,Ket" MinTime=45.5 calibrationName='Abi-Ket-split';`
 
-!Taxa="Par,Pil,Pit" MinTime=85 calibrationName='Par-Pit-split';
+`!Taxa="Par,Pil,Pit" MinTime=85 calibrationName='Par-Pit-split';`
 
-!Taxa="Par,Pil,Pit,Cat" MinTime=133 calibrationName='Cat-Pit-split';
+`!Taxa="Par,Pil,Pit,Cat" MinTime=133 calibrationName='Cat-Pit-split';`
 
-!Taxa="Par,Pil,Pit,Cat,Psm,Pab,Psu,Lar,Tsu,Not,Pri,Abi,Ket,Ced" MinTime=168 MaxTime=267 calibrationName='crown-pinaceae';`
+`!Taxa="Par,Pil,Pit,Cat,Psm,Pab,Psu,Lar,Tsu,Not,Pri,Abi,Ket,Ced" MinTime=168 MaxTime=267 calibrationName='crown-pinaceae';`
 
 Directory "2_lbs_reltime" contains software (“megacc_12_221011_macOS.zip”), code, and control files required to carry out step 2. File “calibrations_by_list.txt” contains a list of four calibrations defined by sets of taxa. The outgroup is specified in “outgroup_prun.txt“ file. File “reltime_loop_code.sh” contains the code used to estimate the 400 LBS-RelTime timetrees. “reltimeFromBranchLengths.mao” is the RelTime analysis control file.
 
