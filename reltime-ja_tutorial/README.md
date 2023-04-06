@@ -16,7 +16,7 @@ We used the RelTme-JA with little bootstraps method to analyze the concatenation
 
    4.   LBS node probabilities were computed on the consensus tree using the "lb_precision.R" function, which aggregates the ML phylogenies from all subsamples and outputs two different tree files. One tree file contains little bootstraps BCLs, and another tree file includes the precision of BCLs for each species group.
 
-Directory "1_lbs_iqtree" contains R functions, code and software required to carry out step 1. File "lbs_codelines.r" contains R code used for LBS analysis and shell files with the prefix "iqtree" contain the code used to infer the ML trees and for LBS consensus tree construction.
+Directory "1_lbs_iqtree" contains R functions, code and software required to carry out step 1. File "lbs_codelines.r" contains R code used for LBS analysis. Shell files with the prefix "iqtree" contain the code used to infer the ML trees and for LBS consensus tree construction.
 
 ## 2. LBS-RelTime analysis
 
