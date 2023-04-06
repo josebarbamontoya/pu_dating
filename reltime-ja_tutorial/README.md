@@ -36,6 +36,10 @@ Directory "2_lbs_reltime" contains software (“megacc_12_221011_macOS.zip”), 
 
 ## 3. Timetree construction
 
+Node times and CI bounds for each node were summarized using 400 dated bootstrap trees on the consensus tree. More precisely, using the collection of bootstrap timetrees, we estimate age for every inferred clade by mapping Ti timetrees onto the bootstrap consensus tree clade-by-clade. For clade j in the bootstrap consensus tree, we first build a collection of member taxa and then find the most recent common ancestor (MRCA) of this set of taxa in every bootstrap replicate timetree. If r replicates have been conducted, then we produce r age estimates for each node in the bootstrap consensus tree and their respective confidence intervals. MRCA is used because the member taxa in the inferred clades in the consensus tree will not always be monophyletic in replicate timetrees due to phylogenetic uncertainty. The mean of r age estimates (tj) is then the age of clade j in the bootstrap consensus phylogeny. The mean of the lower and upper bound of time estimates in the replicate timetrees establish the confidence intervals for the age of clade j (Uj, Lj). 
+
+Directory “3_timetree_construction” contains R and shell code required for summarizing time estimates and constructing timetrees with CIs and node probabilities.
+
 ## 4. Impact of phylogenetic uncertainty on time estimates
 
 ## References
