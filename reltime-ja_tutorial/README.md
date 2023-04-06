@@ -40,7 +40,7 @@ Node times and CI bounds for each node were summarized using 400 dated bootstrap
 
 Directory “3_timetree_construction” contains R and shell code required for summarizing time estimates and constructing timetrees with CIs and node probabilities.
 
-## 4. Impact of phylogenetic uncertainty on time estimates
+## 4. Assessing the impact of phylogenetic uncertainty on time estimates
 
 We made an additional RelTime-SA analysis, we used the timetree topology inferred in the original study. ML Branch lengths were calculated using the GTR+Γ5 model. The same calibrations as for the RelTime-JA analyses were used. We evaluated the performance of the RelTime-JA method by comparing the node times with the RelTime-SA timetree node times. Figure 1 shows...
 
