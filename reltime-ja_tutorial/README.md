@@ -6,6 +6,13 @@ In this tutorial we will analyze a dataset of transcriptomic loci for 15 pine sp
 
 ## 1. LBS-ML analysis
 
+We used the RelTme-JA with little bootstraps method to analyze the concatenation alignment of 15 pine species and 4,246,454 nucleotide sites from Ran et al. (2018). The outgroup was pruned down to one species (Pla). RelTme-JA with little bootstraps has four steps: 
+   (1)   LBS replicates for this dataset were computed in LBS software using the “lb_sampler.R” function. We set the size of the sample g = 0.649 (20,000 sites), the number of samples s = 20, and the number of  little bootstrap replicates r = 20. 
+   (2)   For each LBS replicate alignment, a ML phylogeny was inferred in IQ-TREE using the GTR+Γ5 model.
+   (3)   The 400 LBS-ML phylogenies were used to construct an extended majority-rule consensus tree in IQ-TREE.
+   (4)   LBS node probabilities were computed on the consensus tree using the “lb_precision.R” function, which aggregates the ML phylogenies from all subsamples and outputs two different tree files. One tree file contains little bootstraps BCLs, and another tree file includes the precision of BCLs for each species group.
+Directory 1_lbs_iqtree contains R functions, code and software required to carry out step 1. File “lbs_codelines.r” contains R code used for LBS analysis and shell files with the prefix “iqtree” contain the code used to infer the ML trees and for LBS consensus tree construction.
+
 ## 2. LBS-RelTime analysis
 
 ## 3. Timetree construction
