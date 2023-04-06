@@ -42,6 +42,10 @@ Directory “3_timetree_construction” contains R and shell code required for s
 
 ## 4. Impact of phylogenetic uncertainty on time estimates
 
+We made an additional RelTime-SA analysis, we used the timetree topology inferred in the original study. ML Branch lengths were calculated using the GTR+Γ5 model. The same calibrations as for the RelTime-JA analyses were used. We evaluated the performance of the RelTime-JA method by comparing the node times with the RelTime-SA timetree node times. Figure 1 shows...
+
+Directory “4_assess_pu_impact” contains...
+
 ## References
 
 Kumar S, Stecher G, Peterson D, Tamura K. 2012. MEGA-CC: Computing core of molecular evolutionary genetics analysis program for automated and iterative data analysis. Bioinformatics 28:2685–2686.
