@@ -45,7 +45,7 @@ Directory “3_timetree_construction” contains R and shell code required for s
 We made an additional RelTime-SA analysis, we used the timetree topology inferred in the original study. ML Branch lengths were calculated using the GTR+Γ5 model. The same calibrations as for the RelTime-JA analyses were used. We assessed the performance of the RelTime-JA method by comparing the node times with the RelTime-SA timetree node times. RelTime-JA generated very similar time node ages to RelTime-SA (fig. 1), because phylogenetic uncertainty was small for this dataset. RelTime-JA generated just 7% wider CIs than the CIs from RelTime-SA, due to a limited impact of phylogenetic uncertainty the CIs. RelTime-JA generated an identical timetree topology to the published timetree (fig. 1a-b). The average bootstrap support value for RelTime-JA timetree was 100%...
 
 <p align="center">
-  <img width="1000" height="300" src="fig1_ok.png">
+  <img width="1000" height="300" src="fig1_edited.png">
 </p>
 
 **Figure 1.** Comparison of time estimates and obtained by using RelTime-SA and RelTime-JA with little bootstraps for Ran et al (2018) dataset (a). The slope (Y) and coefficient of determination (R2) for the linear regression through the origin are shown. The black dotted line represents the best-fit linear regression through the origin. The solid gray line represents equality between estimates. Timetrees estimated with RelTime-SA (b), and RelTime-JA (c) (node probabilities are displayed).
