@@ -57,7 +57,7 @@ We made an additional RelTime-SA analysis, we used the timetree topology inferre
 >>identical. But, if the inferred timetree topologies are different between both methods, for comparing time estimates we use for 
 >>RelTime-JA the estimated node times for the most recent common ancestor of all the sets of taxa in the RelTime-SA phylogeny.
 
-Directory “4_assess_pu_impact” contains...
+Directory “4_assess_pu_impact” contains R code and data used to assess the impact of phylogenetic uncertainty on time estimates. File " lmrca_scatterplots_lbs_timing.r" contains R code used to generate the time estimates scatterplot. File...
 
 ## References
 
