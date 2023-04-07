@@ -16,7 +16,7 @@ We used the RelTme-JA with little bootstraps method to analyze the concatenation
 
    4.   LBS node probabilities were computed on the consensus tree using the "lb_precision.R" function, which aggregates the ML phylogenies from all subsamples and outputs two different tree files. One tree file contains little bootstraps BCLs, and another tree file includes the precision of BCLs for each species group.
 
-Directory "1_lbs_iqtree" contains R functions, code and software required to carry out step 1. File "lbs_codelines.r" contains R code used for LBS analysis. Shell files with the prefix "iqtree" contain the code used to infer the ML trees and for LBS consensus tree construction.
+Directory **1_lbs_iqtree** contains R functions, code and software required to carry out step 1. File "lbs_codelines.r" contains R code used for LBS analysis. Shell files with the prefix "iqtree" contain the code used to infer the ML trees and for LBS consensus tree construction.
 
 ## 2. LBS-RelTime analysis
 
@@ -32,13 +32,15 @@ Each 400 ML-LBS tree was then individually dated to generate node ages and CIs u
 !Taxa="Par,Pil,Pit,Cat,Psm,Pab,Psu,Lar,Tsu,Not,Pri,Abi,Ket,Ced" MinTime=168 MaxTime=267 calibrationName='crown-pinaceae';
 ```
 
-Directory "2_lbs_reltime" contains software (“megacc_12_221011_macOS.zip”), code, and control files required to carry out step 2. File “calibrations_by_list.txt” contains a list of four calibrations. The outgroup is specified in “outgroup_prun.txt“ file. File “reltime_loop_code.sh” contains the code used to estimate the 400 LBS-RelTime timetrees. “reltimeFromBranchLengths.mao” is the RelTime analysis control file.
+Directory **2_lbs_reltime** contains software (“megacc_12_221011_macOS.zip”), code, and control files required to carry out step 2. File “calibrations_by_list.txt” contains a list of four calibrations. The outgroup is specified in “outgroup_prun.txt“ file. File “reltime_loop_code.sh” contains the code used to estimate the 400 LBS-RelTime timetrees. “reltimeFromBranchLengths.mao” is the RelTime analysis control file.
+
 
 ## 3. Timetree construction
 
 Node times and CI bounds for each node were summarized using 400 dated bootstrap trees on the consensus tree. More precisely, using the collection of bootstrap timetrees, we estimate age for every inferred clade by mapping Ti timetrees onto the bootstrap consensus tree clade-by-clade. For clade j in the bootstrap consensus tree, we first build a collection of member taxa and then find the most recent common ancestor (MRCA) of this set of taxa in every bootstrap replicate timetree. If r replicates have been conducted, then we produce r age estimates for each node in the bootstrap consensus tree and their respective confidence intervals. MRCA is used because the member taxa in the inferred clades in the consensus tree will not always be monophyletic in replicate timetrees due to phylogenetic uncertainty. The mean of r age estimates (tj) is then the age of clade j in the bootstrap consensus phylogeny. The mean of the lower and upper bound of time estimates in the replicate timetrees establish the confidence intervals for the age of clade j (Uj, Lj). 
 
-Directory “3_timetree_construction” contains R and shell code required for summarizing time estimates and constructing timetrees with CIs and node probabilities.
+Directory **3_timetree_construction** contains R and shell code required for summarizing time estimates and constructing timetrees with CIs and node probabilities.
+
 
 ## 4. Assessing the impact of phylogenetic uncertainty on time estimates
 
@@ -57,7 +59,7 @@ We made an additional RelTime-SA analysis, we used the timetree topology inferre
 >>identical. But, if the inferred timetree topologies are different between both methods, for comparing time estimates we use for 
 >>RelTime-JA the estimated node times for the most recent common ancestor of all the sets of taxa in the RelTime-SA phylogeny.
 
-Directory “4_assess_pu_impact” contains R code and data used to assess the impact of phylogenetic uncertainty on time estimates. File " lmrca_scatterplots_lbs_timing.r" contains R code used to generate the time estimates scatterplot. File...
+Directory **4_assess_pu_impact** contains R code and data used to assess the impact of phylogenetic uncertainty on time estimates. File " lmrca_scatterplots_lbs_timing.r" contains R code used to generate the time estimates scatterplot. File...
 
 ## References
 
