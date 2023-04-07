@@ -45,7 +45,7 @@ Directory “3_timetree_construction” contains R and shell code required for s
 We made an additional RelTime-SA analysis, we used the timetree topology inferred in the original study. ML Branch lengths were calculated using the GTR+Γ5 model. The same calibrations as for the RelTime-JA analyses were used. We evaluated the performance of the RelTime-JA method by comparing the node times with the RelTime-SA timetree node times. Figure 1 shows...
 
 <p align="center">
-  <img width="1000" height="400" src="fig1.png">
+  <img width="1000" height="300" src="fig1.png">
 </p>
 
 Directory “4_assess_pu_impact” contains...
