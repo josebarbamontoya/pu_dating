@@ -53,7 +53,7 @@ We made an additional RelTime-SA analysis, we used the timetree topology inferre
 </p>
 
 >>**Figure 1.** Comparison of time estimates and obtained by using RelTime-SA and RelTime-JA with little bootstraps for Ran et al (2018) dataset (a). 
->>The slope (_Y_) and coefficient of determination (_R_²) for the linear regression through the origin are shown. The black dotted line represents the 
+>>The slope (_Y_) and coefficient of determination (_R²_) for the linear regression through the origin are shown. The black dotted line represents the 
 >>best-fit linear regression through the origin. The solid gray line represents equality between estimates. Timetrees estimated with RelTime-SA (b), 
 >>and RelTime-JA (c) (node probabilities are displayed).
 >>Here, we made a direct comparison of the node time estimates produced by applying RelTime-SA and RelTime-JA because both timetree topologies were 
