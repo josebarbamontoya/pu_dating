@@ -32,7 +32,7 @@ Each 400 ML-LBS tree was then individually dated to generate node ages and CIs u
 !Taxa="Par,Pil,Pit,Cat,Psm,Pab,Psu,Lar,Tsu,Not,Pri,Abi,Ket,Ced" MinTime=168 MaxTime=267 calibrationName='crown-pinaceae';
 ```
 
-Directory **2_lbs_reltime** contains software (“megacc_12_221011_macOS.zip”), code, and control files required to carry out step 2. File “calibrations_by_list.txt” contains a list of four calibrations. The outgroup is specified in “outgroup_prun.txt“ file. File “reltime_loop_code.sh” contains the code used to estimate the 400 LBS-RelTime timetrees. “reltimeFromBranchLengths.mao” is the RelTime analysis control file.
+Directory **2_lbs_reltime** contains software (`megacc_12_221011_macOS`), code, and control files required to carry out step 2. File “calibrations_by_list.txt” contains a list of four calibrations. The outgroup is specified in “outgroup_prun.txt“ file. File “reltime_loop_code.sh” contains the code used to estimate the 400 LBS-RelTime timetrees. “reltimeFromBranchLengths.mao” is the RelTime analysis control file.
 
 
 ## 3. Timetree construction
