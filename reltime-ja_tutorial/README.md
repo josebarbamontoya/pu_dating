@@ -48,6 +48,10 @@ We made an additional RelTime-SA analysis, we used the timetree topology inferre
   <img width="1000" height="290" src="fig1.png">
 </p>
 
+<p align="center">
+  <img width="1000" height="290" src="fig1.pdf">
+</p>
+
 Directory “4_assess_pu_impact” contains...
 
 ## References
