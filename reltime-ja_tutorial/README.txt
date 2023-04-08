@@ -7,7 +7,7 @@ Four directories that contain the software, code, and control files used in the 
 	1_lbs_iqtree
 	2_lbs_reltime
 	3_timetree_construction
-	4_time_estimates_comparison
+	4_assess_pu_impact
 
 For questions or comments please contact:
 
