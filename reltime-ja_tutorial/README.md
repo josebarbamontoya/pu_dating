@@ -30,10 +30,6 @@ Each 400 ML-LBS tree was then individually dated to generate node ages and CIs u
 400 LBS-RelTime timetrees were computed in `megacc_12_221011_macOS`. File `reltime_loop_code.sh` contains the code used for the RelTime analysis. File `reltimeFromBranchLengths.mao` is the RelTime analysis control file. File `calibrations_by_list.txt` contains a list of four calibrations. The outgroup is specified in `outgroup_prun.txt` file.
 
 
-File “calibrations_by_list.txt” contains a list of four calibrations. 
-
-The outgroup is specified in “outgroup_prun.txt“ file. File “reltime_loop_code.sh” contains the code used to estimate the 400 LBS-RelTime timetrees. “reltimeFromBranchLengths.mao” is the RelTime analysis control file.
-
 ## 3. Timetree construction
 
 Node times and CI bounds for each node were summarized using 400 dated bootstrap trees on the consensus tree. More precisely, using the collection of bootstrap timetrees, we estimate age for every inferred clade by mapping _Tᵢ_ timetrees onto the bootstrap consensus tree clade-by-clade. For clade _j_ in the bootstrap consensus tree, we first build a collection of member taxa and then find the most recent common ancestor (MRCA) of this set of taxa in every bootstrap replicate timetree. If _r_ replicates have been conducted, then we produce _r_ age estimates for each node in the bootstrap consensus tree and their respective confidence intervals. MRCA is used because the member taxa in the inferred clades in the consensus tree will not always be monophyletic in replicate timetrees due to phylogenetic uncertainty. The mean of _r_ age estimates (_t<sub>j</sub>_) is then the age of clade _j_ in the bootstrap consensus phylogeny. The mean of the lower and upper bound of time estimates in the replicate timetrees establish the confidence intervals for the age of clade _j_ ( _U<sub>j</sub>_, _L<sub>j</sub>_).
@@ -58,6 +54,9 @@ We made an additional RelTime-SA analysis, we used the timetree topology inferre
 >>identical. But, if the inferred timetree topologies are different between both methods, for comparing time estimates we use for 
 >>RelTime-JA the estimated node times for the MRCA of all the sets of taxa in the RelTime-SA phylogeny.
 
+`analyze_user_tree_ML_nucleotide.mao`, `blens_prun.nwk`, `get_times_nexus_figtree_reltime.r`, `lbs-rt_timetree.tre`, `lbs-rt_timetree_estimates.txt`, `lmrca_scatterplots_lbs_timing.r`, `megacc_12_221011_macOS.zip`, `megacc_code.sh`, `out_nexus.tre`, `outgroup_prun.txt`, `reltimeFromBranchLengths.mao`, `reltime_code.sh`, `rt_times.txt`, `tree_prun.nwk`, 
+
+
 Directory **4_assess_pu_impact** contains R code and data used to assess the impact of phylogenetic uncertainty on time estimates. File " lmrca_scatterplots_lbs_timing.r" contains R code used to generate the time estimates scatterplot. File...
 
 ## References
@@ -75,4 +74,3 @@ Sharma S, Kumar S. 2021. Fast and accurate bootstrap confidence limits on genome
 Tamura K, Battistuzzi FU, Billing-Ross P, Murillo O, Filipski A, Kumar S. 2012. Estimating divergence times in large molecular phylogenies. Proc. Natl. Acad. Sci. U. S. A. 109:19333–19338.
 
 Tamura K, Tao Q, Kumar S. 2018. Theoretical foundation of the reltime method for estimating divergence times from variable evolutionary rates. Mol. Biol. Evol. 35:1770–1782.
-
