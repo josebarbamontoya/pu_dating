@@ -73,3 +73,10 @@ Tamura K, Battistuzzi FU, Billing-Ross P, Murillo O, Filipski A, Kumar S. 2012. 
 
 Tamura K, Tao Q, Kumar S. 2018. Theoretical foundation of the reltime method for estimating divergence times from variable evolutionary rates. Mol. Biol. Evol. 35:1770–1782.
 
+___
+
+We hope you find this tutorial useful.
+For comments and questions about this tutorial please e-mail:
+j.barba@temple.edu.
+
+
