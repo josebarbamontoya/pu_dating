@@ -54,10 +54,8 @@ We made an additional RelTime-SA analysis, we used the timetree topology inferre
 >>identical. But, if the inferred timetree topologies are different between both methods, for comparing time estimates we use for 
 >>RelTime-JA the estimated node times for the MRCA of all the sets of taxa in the RelTime-SA phylogeny.
 
-`analyze_user_tree_ML_nucleotide.mao`, `blens_prun.nwk`, `get_times_nexus_figtree_reltime.r`, `lbs-rt_timetree.tre`, `lbs-rt_timetree_estimates.txt`, `lmrca_scatterplots_lbs_timing.r`, `megacc_12_221011_macOS.zip`, `megacc_code.sh`, `out_nexus.tre`, `outgroup_prun.txt`, `reltimeFromBranchLengths.mao`, `reltime_code.sh`, `rt_times.txt`, `tree_prun.nwk`, 
+The RelTime-SA analysis was computed in `megacc_12_221011_macOS`. We first used the ML method to estimate branch lengths under the GTR+G5 model with the original timetree topology (`tree_prun.nwk`) and the <a href="https://github.com/josebarbamontoya/pu_dating/blob/main/data/empirical_data/pines_concat.fas">pines_concat.fas</a> alignment. The `analyze_user_tree_ML_nucleotide.mao` was used for this analysis. Shell files `megacc_code.sh` contains the code used for this step. Then, the phylogney with branch length was used to infer a timetree by applying the RelTime method. File `reltime_code.sh` contains the code used for this analysis. File `reltimeFromBranchLengths.mao` is the RelTime analysis control file. File `calibrations.txt` contains a list of four calibrations. The outgroup is specified in `outgroup_prun.txt` file. Then we used the R function `get_times_nexus_figtree_reltime.r` to extract time estimates from the RelTime nexus timetree (`out_nexus.tre`) and make a table (`rt_times.txt`). to make the time estimates scatterplot we usde the script `lmrca_scatterplots_lbs_timing.r`, and the time estimates from the `rt_times.txt` and `lbs-rt_timetree_estimates.txt` tables. To plot the timetrees we used `lbs-rt_timetree.tre` and `out_nexus.tre` in FigTree.
 
-
-Directory **4_assess_pu_impact** contains R code and data used to assess the impact of phylogenetic uncertainty on time estimates. File " lmrca_scatterplots_lbs_timing.r" contains R code used to generate the time estimates scatterplot. File...
 
 ## References
 
@@ -74,3 +72,4 @@ Sharma S, Kumar S. 2021. Fast and accurate bootstrap confidence limits on genome
 Tamura K, Battistuzzi FU, Billing-Ross P, Murillo O, Filipski A, Kumar S. 2012. Estimating divergence times in large molecular phylogenies. Proc. Natl. Acad. Sci. U. S. A. 109:19333–19338.
 
 Tamura K, Tao Q, Kumar S. 2018. Theoretical foundation of the reltime method for estimating divergence times from variable evolutionary rates. Mol. Biol. Evol. 35:1770–1782.
+
