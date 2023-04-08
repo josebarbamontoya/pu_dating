@@ -10,5 +10,5 @@ In this repository, you can find a description of the RelTime-JA method that com
    
    * **reltime-ja_tutorial** directory contains the software, R code, scripts, and data used in the tutorial of RelTime-JA with little bootstraps method.
    
---
+---
 We hope you find this repository useful. For comments and questions please e-mail j.barba@temple.edu.
