@@ -18,7 +18,7 @@ We used the RelTme-JA with little bootstraps method to analyze the concatenation
 
    3.   The 400 LBS-ML phylogenies inferred were used to construct an extended majority-rule consensus tree in `iqtree`. File `iqtree_code_consensus.sh` contains the code used for LBS consensus tree construction.
 
-   4.   LBS node probabilities were computed on the consensus tree using the `lb_precision.R` function, which aggregates the ML phylogenies from all subsamples and outputs two different tree files. One tree file contains little bootstraps BCLs, and another tree file includes the precision of BCLs for each species group.
+   4.   LBS node probabilities were computed on the LBS consensus tree using the `lb_precision.R` function, which aggregates the ML phylogenies from all subsamples and outputs two different tree files. One tree file contains little bootstraps BCLs, and another tree file includes the precision of BCLs for each species group.
 
 ## 2. LBS-RelTime analysis
 
