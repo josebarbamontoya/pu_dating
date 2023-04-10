@@ -193,4 +193,16 @@ all_times[ ,i] <- estimated_times
 
 }
 
+df <- data.frame(c(51:99))
+newname <- c("node")
+colnames(df) <- newname
+df1 <- cbind(df, all_times)
+df1 <- data.frame(df1)
+
+dfm <- data.frame(c(rowMeans(df1[1:49, 2:101])))
+newname <- c("mean_upper")
+colnames(dfm) <- newname
+df1 <- cbind(df, all_times, dfm)
+df1 <- data.frame(df1)
+
 write.table(all_times, file="/Users/barba/Desktop/jb_lbstt_cis_ar429/ar429_mrca_times_ci_upper.txt", sep="\t", col.names=NA)
