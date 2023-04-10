@@ -193,4 +193,16 @@ all_times[ ,i] <- estimated_times
 
 }
 
+df <- data.frame(c(51:99))
+newname <- c("node")
+colnames(df) <- newname
+df1 <- cbind(df, all_times)
+df1 <- data.frame(df1)
+
+dfm <- data.frame(c(rowMeans(df1[1:49, 2:101])))
+newname <- c("mean_time")
+colnames(dfm) <- newname
+df1 <- cbind(df, all_times, dfm)
+df1 <- data.frame(df1)
+
 write.table(all_times, file="/Users/barba/Desktop/top_rf_data_analysis/reltime_analyses/reltime_joint2/bs_timetree_construction_ar389/ar163_mrca_times_divtimes.txt", sep="\t", col.names=NA)
