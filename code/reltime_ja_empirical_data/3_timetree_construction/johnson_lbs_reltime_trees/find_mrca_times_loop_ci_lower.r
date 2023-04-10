@@ -415,6 +415,12 @@ colnames(df) <- newname
 df1 <- cbind(df, all_times)
 df1 <- data.frame(df1)
 
+dfm <- data.frame(c(rowMeans(df1[1:187, 2:101])))
+newname <- c("mean_lower")
+colnames(dfm) <- newname
+df1 <- cbind(df, all_times, dfm)
+df1 <- data.frame(df1)
+
 
 write.table(df1, file="/Users/barba/Desktop/lbs_iqtree_reltime_timetrees/lbs-reltime_ultimate_timetrees/johnson_lbs_reltime_trees/mrca_lower.txt", sep="\t", col.names=NA)
 
