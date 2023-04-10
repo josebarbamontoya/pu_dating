@@ -1,4 +1,4 @@
-
+>>**Table 1. Summary of the six phylogenomic datasets analyzed**
 | Dataset | No. sites | No. sequences | No. disticnt sites | Study |
 |---------|-----------|---------------|--------------------|-------|
 | Mammals | 33,173,174 | 72 | 10,381,608 | Álvarez-Carretero S, Tamuri AU, Battini M, Nascimento FF, Carlisle E, Asher RJ, Yang Z, Donoghue PCJ, dos Reis M. 2022. A species-level timeline of mammal evolution integrating phylogenomic data. Nature 602:263–267. |
