@@ -4,11 +4,11 @@ In this repository, you can find a description of the RelTime-JA method that com
 
 ## Directory structure
 
-   * **<a href="https://github.com/josebarbamontoya/pu_dating/blob/80e85061c0967d1448ce6a10cad7c2cdf175cb33/code//">code</a>** directory contains the software, R code, and shell scripts required to carry out the RelTime-JA analyses of computer simulated and empirical phylogenomic datasets.
+   * **<a href="https://github.com/josebarbamontoya/pu_dating/tree/main/code/">code</a>** directory contains the software, R code, and shell scripts required to carry out the RelTime-JA analyses of computer simulated and empirical phylogenomic datasets.
    
-   * **<a href="https://github.com/josebarbamontoya/pu_dating/blob/0c2863b5a356046dec989dfb2b980504f6c39d9d/data/">data</a>** directory contains computer simulated and empirical phylogenomic datasets analyzed for this study.
+   * **<a href="https://github.com/josebarbamontoya/pu_dating/tree/main/data/">data</a>** directory contains computer simulated and empirical phylogenomic datasets analyzed for this study.
    
-   * **<a href="https://github.com/josebarbamontoya/pu_dating/blob/80e85061c0967d1448ce6a10cad7c2cdf175cb33/reltime-ja_tutorial/">reltime_ja_tutorial</a>** directory contains a tutorial of the RelTime-JA with little bootstraps method, and software, R code, shell scripts, and data used in the tutorial.
+   * **<a href="https://github.com/josebarbamontoya/pu_dating/tree/main/reltime-ja_tutorial/">reltime_ja_tutorial</a>** directory contains a tutorial of the RelTime-JA with little bootstraps method, and software, R code, shell scripts, and data used in the tutorial.
 
 ---
 We hope you find this repository useful. For comments and questions please e-mail j.barba@temple.edu.
