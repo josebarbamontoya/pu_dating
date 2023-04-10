@@ -1,4 +1,4 @@
->>**Table 1. Summary of the six phylogenomic datasets analyzed**
+>>**Table 1. Summary of the six phylogenomic datasets analyzed.**
 
 | Dataset | No. sites | No. sequences | No. disticnt sites | Study |
 |---------|-----------|---------------|--------------------|-------|
