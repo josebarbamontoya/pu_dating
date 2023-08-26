@@ -1,6 +1,6 @@
 This directory contains software and code used in:
 
-Barba-Montoya et al. (2023). Molecular timetrees using relaxed clocks and uncertain phylogenies. <a href="https://www.frontiersin.org/articles/10.3389/fbinf.2023.1225807/full">DOI: doi.org/10.3389/fbinf.2023.1225807</a>
+Barba-Montoya et al. (2023). Molecular timetrees using relaxed clocks and uncertain phylogenies. https://doi.org/10.3389/fbinf.2023.1225807
 
 Two directories that contain the software, code, and control files required to carry out Reltime-JA of simulated and empirical data:
 
