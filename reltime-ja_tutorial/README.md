@@ -59,7 +59,7 @@ The RelTime-SA analysis was computed in `megacc_12_221011_macOS`. We first used 
 
 ## References
 
-Molecular timetrees using relaxed clocks and uncertain phylogenies. 2023. Barba-Montoya J, Sharma S, Kumar S. Frontiers in Bioinformatics 3:1225807. 
+Barba-Montoya J, Sharma S, Kumar S. 2023. Molecular timetrees using relaxed clocks and uncertain phylogenies. Frontiers in Bioinformatics 3:1225807. 
 
 Kumar S, Stecher G, Peterson D, Tamura K. 2012. MEGA-CC: Computing core of molecular evolutionary genetics analysis program for automated and iterative data analysis. Bioinformatics 28:2685–2686.
 
