@@ -1,6 +1,6 @@
 # Molecular timetrees using relaxed clocks and uncertain phylogenies
 
-In this repository, you can find a description of the RelTime-JA method that combines bootstrap resampling, maximum likelihood estimation, and RelTime approaches for simultaneously inferring evolutionary relationships, divergence times, and confidence intervals incorporating phylogeny uncertainty. You can also find the computer simulated and empirical phylogenomic datasets analyzed in this study. You can find as well a tutorial of RelTime-JA with little bootstraps method. For a more detailed explanation of the method, please read our manuscript (To do: add link).
+In this repository, you can find a description of the RelTime-JA method that combines bootstrap resampling, maximum likelihood estimation, and RelTime approaches for simultaneously inferring evolutionary relationships, divergence times, and confidence intervals incorporating phylogeny uncertainty. You can also find the computer simulated and empirical phylogenomic datasets analyzed in this study. You can find as well a tutorial of RelTime-JA with little bootstraps method. For a more detailed explanation of the method, please read our manuscript (https://www.frontiersin.org/articles/10.3389/fbinf.2023.1225807/full).
 
 ## Directory structure
 
