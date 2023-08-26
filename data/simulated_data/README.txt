@@ -1,6 +1,6 @@
 This directory contains data files analyzed in:
 
-Barba-Montoya et al. (2023). Molecular timetrees using relaxed clocks and uncertain phylogenies. DOI: https://doi.org/...
+Barba-Montoya et al. (2023). Molecular timetrees using relaxed clocks and uncertain phylogenies. https://doi.org/10.3389/fbinf.2023.1225807.
 
 11 simulated multiple sequence alignments, and model timetree:
 
