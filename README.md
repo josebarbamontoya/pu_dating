@@ -8,7 +8,7 @@ In this repository, you can find a description of the RelTime-JA method that com
    
    * **<a href="https://github.com/josebarbamontoya/pu_dating/tree/main/data/">data</a>** directory contains computer simulated and empirical phylogenomic datasets analyzed for this study.
    
-   * **<a href="https://github.com/josebarbamontoya/pu_dating/tree/main/reltime-ja_tutorial/">reltime_ja_tutorial</a>** directory contains a tutorial of the RelTime-JA with little bootstraps method, and software, R code, shell scripts, and data used in the tutorial.
+   * **<a href="https://github.com/josebarbamontoya/pu_dating/tree/main/reltime-ja_tutorial/">reltime-ja_tutorial</a>** directory contains a tutorial of the RelTime-JA with little bootstraps method, and software, R code, shell scripts, and data used in the tutorial.
 
 ---
 We hope you find this repository useful. For comments and questions please e-mail j.barba@temple.edu.
